@@ -8,3 +8,7 @@ function myClickFunction() {
 
     htmlString.innerHTML = '<div class="container-fluid text-center"> <h1>Hello World</h1> </div>';
 }
+
+const button = document.getElementById("hello");
+
+button.addEventListener("click", myClickFunction);
